@@ -4,15 +4,15 @@ from sqlalchemy.orm import Session
 
 from app.infrastructure.database.session import get_db
 
-router = APIRouter(tags=["Health"])
+health_router = APIRouter(tags=["Health"])
 
 
-@router.get("/health", summary="Verificar que la API está activa")
+@health_router.get("/health", summary="Verificar que la API está activa")
 def health_check() -> dict[str, str]:
     return {"status": "ok", "service": "harmony-spa-api"}
 
 
-@router.get(
+@health_router.get(
     "/health/ready",
     summary="Verificar que la API puede comunicarse con MySQL",
 )
