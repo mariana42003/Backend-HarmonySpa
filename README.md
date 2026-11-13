@@ -10,16 +10,3 @@ En esta sección encontrarás el video de presentación y demostración de la **
 
 [**Haz clic aquí para ver la Fase 1 – Autenticación**](https://drive.google.com/drive/folders/1g8cdGtowZehGkbTBI1yPrnE6wZuLTHXF?usp=drive_link)
 
----
-
-## Información del proyecto
-
-- **Proyecto:** Harmony Spa
-- **Fase:** 1
-- **Componente:** Autenticación
-- **Tipo:** API REST
-- **Tecnologías:** Python, FastAPI, SQLAlchemy y MySQL.
-
----
-
-*Gracias por visitar nuestro proyecto. ¡Te invitamos a conocer los avances de Harmony Spa!*
